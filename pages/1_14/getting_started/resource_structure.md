@@ -40,6 +40,14 @@ languages. (e.g if your mod doesn't have Polish translations, then a player play
 
 There will be a separate article explaining translation in detail.
 
+For now you can create the `en_us.json` file and put a pair of curly 
+braces in there like this.
+```json
+{
+
+}
+```
+
 ### Models
 This directory contains json models (shapes) for your blocks and items.
 A detailed explanation will be included in the respective articles.

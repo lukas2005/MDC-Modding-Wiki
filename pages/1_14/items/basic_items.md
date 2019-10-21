@@ -116,5 +116,27 @@ In Intellij idea you might need to use the `Run -> Reload Changed Classes` optio
 succesfully reloads your resources (If you are not running in Debug Mode this will be grayed out). Alternatively 
 you can press `CTRL + F9`.
 
+## Localization
+The last thing that you need to do is give your new item a localized name.
+This allows you to create translations of your mod into different languages.
+All you need to do for now though is open your `src/main/resources/assets/modid/lang/en_us.json` file
+
+All you need to do is add a new entry to the json file.
+```json
+{
+    "item.modid.registry_name": "Item Name" // For each of your items, remember a comma at the end of each entry except the last one
+}
+```
+Which in our case will be:
+```json
+{
+    "item.example.gem": "Gem",
+    "item.example.example": "Example Item"
+}
+```
+
+Now you can just reload resources again and in the game your
+item should have a proper name now.
+
 ## Advanced models
 TODO
