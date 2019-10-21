@@ -2,12 +2,10 @@
 
 At this point you should be able start with creating some basic items.
 
-!! NOTE !!
-
-This is presuming you followed these previous tutorials (in this order):
-- [New Project](../getting_started/new_project.md)
-- [Code Structure](../getting_started/code_structure.md)
-- [Resource Structure](../getting_started/resource_structure.md)
+> This is presuming you followed these previous tutorials (in this order):
+> - [New Project](../getting_started/new_project.md)
+> - [Code Structure](../getting_started/code_structure.md)
+> - [Resource Structure](../getting_started/resource_structure.md)
 
 Let's start with a `ModItems` class.
 
@@ -89,7 +87,7 @@ The most basic item model you can have is this:
 
 ```json
 {
-    "parent":"item/generated",
+    "parent": "item/generated",
     "textures": {
         "layer0":"modid:item/item_texture_name_without_extension"
     }
@@ -111,10 +109,9 @@ typical convention of placing item textures under `textures/item`).
 Now you can go back to the game and press `F3 + T` to reload assets
 without having to close it.
 
-#### !! NOTE !!
-In Intellij idea you might need to use the `Run -> Reload Changed Classes` option before `F3 + T` 
-succesfully reloads your resources (If you are not running in Debug Mode this will be grayed out). Alternatively 
-you can press `CTRL + F9`.
+> In Intellij idea you might need to use the `Run -> Reload Changed Classes` option  before `F3 + T` 
+> succesfully reloads your resources (If you are not running in Debug Mode this will be grayed out). Alternatively 
+> you can press `CTRL + F9`.
 
 ## Localization
 The last thing that you need to do is give your new item a localized name.

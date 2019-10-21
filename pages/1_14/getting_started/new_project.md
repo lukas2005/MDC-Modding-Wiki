@@ -141,8 +141,8 @@ an example of that in use here in Sparks Hammers:
 * [build.gradle](https://github.com/thebrightspark/SparksHammers/blob/1.12/build.gradle)
 * [gradle.properties](https://github.com/thebrightspark/SparksHammers/blob/1.12/gradle.properties)
 
-!! NOTE !!
-Although the above examples are from a 1.12 mod, Gradle still works the same in this case.
+
+> Although the above examples are from a 1.12 mod, Gradle still works the same in this case.
 
 ### Setting up your workspace
 
@@ -156,10 +156,8 @@ To generate the tasks you have to run `gradlew genIntellijRuns`.
 
 (In Intellij you can do this using the `Gradle` tab)
 
-!! NOTE !!
-
-You might need to manually set the module to `MODNAME.main` in your
-launch configurations
+> You might need to manually set the module to `MODNAME.main` in your
+> launch configurations
 
 * For Eclipse you have to run `gradlew genEclipseRuns`
 
